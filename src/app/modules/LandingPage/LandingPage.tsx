@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function LandingPage(){
   return (
     <div className="LandingPage h-screen">
@@ -11,11 +13,14 @@ export default function LandingPage(){
 			    </li>
 			    
                 <li className="flex">
-				    <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-white">Inicio</a>
-			    </li>
+				    {/* <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-white">Inicio</a> */}
+					<NavLink to='register' className='flex items-center px-4 -mb-1 border-b-2 border-transparent text-white'>Inicio </NavLink>
+
+				</li>
 
 			    <li className="flex">
-				    <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-white">Registrate</a>
+				    {/* <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-white">Registrate</a> */}
+					<NavLink to='register' className='flex items-center px-4 -mb-1 border-b-2 border-transparent text-white'>Registrate </NavLink>
 			    </li>
 		    </ul>
           </div>
