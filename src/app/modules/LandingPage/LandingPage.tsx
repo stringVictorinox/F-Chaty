@@ -22,7 +22,7 @@ export default function LandingPage(){
 
             <div className="text-white text-center flex h-96 items-center mt-10">
               <div className="flex flex-col mx-auto">
-                <h1 className="text-7xl font-semibold mb-5 font-fam">Chaty</h1>
+                <h1 className="text-7xl font-bold mb-5 font-fam">Chaty</h1>
                 <h1 className="text-7xl font-semibold mb-5">Conecta con quien quieres.</h1>
                 <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
               </div>
@@ -102,7 +102,7 @@ export default function LandingPage(){
 	<div className="container mx-auto space-y-12">
 		
 		<div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-			<img src="https://source.unsplash.com/640x480/?2" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+			<img src="../" alt="" className="bg-gray-500 aspect-video" />
 			<div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
 				<span className="text-xs uppercase dark:text-gray-400">Sobre nosotros</span>
 				<h3 className="text-3xl font-bold">It is a long established fact that a reader will be distracted</h3>
